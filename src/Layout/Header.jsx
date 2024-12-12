@@ -44,8 +44,8 @@ const Header = () => {
         },
     ])
   return (
-    <header className='shadow-md'>
-        <div className='max-w-[1250px] ml-8  p-1 flex items-center gap-7'>
+    <header className='shadow-md bg-white'>
+        <div className='max-w-[1250px]  ml-8  p-1 flex items-center gap-7 '>
             <div className='w-[70px]'>
                 <img src="/public/myntra-logo.png" alt="Myntra-logo" />
             </div>
@@ -57,9 +57,9 @@ const Header = () => {
                     )
                 })}
             </div>
-            <div className='h-[38px] w-[350px] rounded-[4px] ml-[60px] bg-gray-100 flex gap-5 items-center'>
+            <div className='h-[38px] w-[350px] rounded-[4px] ml-[60px] bg-gray-50 flex gap-5 items-center'>
                 <IoSearchOutline  className='text-[20px] text-gray-900 ml-3'/>
-                <input className='w-full bg-slate-100 rounded-[4px] text-[13px] input' type='text' placeholder='Search for products, brands and more'/>
+                <input className='w-full bg-gray-50  rounded-[4px] text-[13px] text-black input' type='text' placeholder='Search for products, brands and more'/>
             </div>
             <div>
                 <div className='flex gap-7 items-center justify-center ml-2 h-[78px]'>
